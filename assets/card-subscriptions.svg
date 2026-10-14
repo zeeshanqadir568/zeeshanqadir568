@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="250" viewBox="0 0 560 250" role="img" aria-label="Subscription Tracker: Tracks SaaS spend: pro-rated burn rate, category totals, renewal alerts and free-trial reminders.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1022"/><stop offset="1" stop-color="#120b26"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <radialGradient id="gl" cx="1" cy="0" r="0.8"><stop offset="0" stop-color="#fbbf24" stop-opacity="0.25"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+    <style>
+      .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: 'Cascadia Code', Consolas, 'Courier New', monospace; }
+      .edge { stroke-dasharray: 120 1640; animation: run 6s linear infinite; animation-delay: -4.5s; }
+      @keyframes run { from { stroke-dashoffset: 1760; } to { stroke-dashoffset: 0; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="558" height="248" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="558" height="248" rx="16" fill="url(#gl)"/>
+  <rect x="1" y="1" width="558" height="248" rx="16" fill="none" stroke="#334155" stroke-width="1.5"/>
+  <rect class="edge" x="1" y="1" width="558" height="248" rx="16" fill="none" stroke="url(#ac)" stroke-width="2.5"/>
+  <rect x="32" y="30" width="44" height="4" rx="2" fill="url(#ac)"/>
+  <text class="m" x="86" y="36" font-size="13" fill="#fbbf24" letter-spacing="2">FULL-STACK SAAS</text>
+  <text class="t" x="32" y="80" font-size="26" font-weight="700" fill="#f8fafc">Subscription Tracker</text>
+  <text class="t" x="32" y="118" font-size="16" fill="#94a3b8">Tracks SaaS spend: pro-rated burn rate, category</text>
+  <text class="t" x="32" y="142" font-size="16" fill="#94a3b8">totals, renewal alerts and free-trial reminders.</text>
+  <rect x="32" y="186" width="81" height="28" rx="14" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.45"/><text class="t" x="72.5" y="205" font-size="14" fill="#e2e8f0" text-anchor="middle">Next.js</text><rect x="121" y="186" width="106" height="28" rx="14" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.45"/><text class="t" x="174" y="205" font-size="14" fill="#e2e8f0" text-anchor="middle">TypeScript</text><rect x="235" y="186" width="73" height="28" rx="14" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.45"/><text class="t" x="271.5" y="205" font-size="14" fill="#e2e8f0" text-anchor="middle">Prisma</text><rect x="316" y="186" width="106" height="28" rx="14" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.45"/><text class="t" x="369" y="205" font-size="14" fill="#e2e8f0" text-anchor="middle">PostgreSQL</text>
+  <text class="t" x="528" y="36" font-size="14" font-weight="600" fill="#fbbf24" text-anchor="end">Live app  →</text>
+</svg>

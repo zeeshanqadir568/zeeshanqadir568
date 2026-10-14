@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Zeeshan Qadir, AI/ML Engineer. I build RAG chatbots, AI agents and LLM apps.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b17"/>
+      <stop offset="0.55" stop-color="#0b1430"/>
+      <stop offset="1" stop-color="#140a2e"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.15" cy="0.2" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.9" cy="0.85" r="0.5">
+      <stop offset="0" stop-color="#c026d3" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c026d3" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="type1"><rect x="0" y="0" height="40" width="0"><animate attributeName="width" values="0;640;640;0;0" keyTimes="0;0.12;0.28;0.33;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="type2"><rect x="0" y="0" height="40" width="0"><animate attributeName="width" values="0;0;640;640;0;0" keyTimes="0;0.33;0.45;0.61;0.66;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="type3"><rect x="0" y="0" height="40" width="0"><animate attributeName="width" values="0;0;640;640;0" keyTimes="0;0.66;0.78;0.95;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <style>
+      .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: 'Cascadia Code', Consolas, 'Courier New', monospace; }
+      .edge { fill: none; stroke: #6366f1; stroke-width: 1; stroke-opacity: 0.35; }
+      .flow { stroke: #22d3ee; stroke-width: 2; stroke-dasharray: 6 140; animation: run 4s linear infinite; }
+      .flow.b { stroke: #e879f9; animation-duration: 5.5s; animation-delay: -2s; }
+      .node { fill: #a5b4fc; animation: pulse 3s ease-in-out infinite; }
+      .node.c { fill: #22d3ee; animation-delay: -1s; }
+      .node.p { fill: #e879f9; animation-delay: -2s; }
+      @keyframes run { from { stroke-dashoffset: 146; } to { stroke-dashoffset: 0; } }
+      @keyframes pulse { 0%,100% { opacity: 0.45; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glowA)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glowB)"/>
+
+  <!-- neural network, right side -->
+  <g>
+    <path class="edge" d="M780 70 L880 120 L980 80 L1080 130 M780 70 L880 200 L980 160 L1080 130 M880 120 L980 160 L1080 230 M880 200 L980 250 L1080 230 M780 160 L880 120 M780 160 L880 200 M780 250 L880 200 M780 250 L880 280 L980 250 M980 80 L1080 30 M980 160 L1080 30 M1080 130 L1150 180 L1080 230"/>
+    <path class="flow" fill="none" d="M780 70 L880 120 L980 160 L1080 230"/>
+    <path class="flow b" fill="none" d="M780 250 L880 200 L980 160 L1080 130"/>
+    <path class="flow" fill="none" style="animation-delay:-1.3s" d="M780 160 L880 200 L980 250 L1080 230 L1150 180"/>
+    <path class="flow b" fill="none" style="animation-delay:-3.5s" d="M780 160 L880 120 L980 80 L1080 30"/>
+    <g filter="url(#soft)" opacity="0.8">
+      <circle class="node c" cx="980" cy="160" r="9"/>
+      <circle class="node p" cx="880" cy="200" r="7"/>
+    </g>
+    <circle class="node c" cx="780" cy="70" r="5"/>
+    <circle class="node" cx="780" cy="160" r="5"/>
+    <circle class="node p" cx="780" cy="250" r="5"/>
+    <circle class="node" cx="880" cy="120" r="6"/>
+    <circle class="node p" cx="880" cy="200" r="6"/>
+    <circle class="node c" cx="880" cy="280" r="5"/>
+    <circle class="node" cx="980" cy="80" r="6"/>
+    <circle class="node c" cx="980" cy="160" r="7"/>
+    <circle class="node p" cx="980" cy="250" r="6"/>
+    <circle class="node c" cx="1080" cy="30" r="5"/>
+    <circle class="node" cx="1080" cy="130" r="6"/>
+    <circle class="node p" cx="1080" cy="230" r="6"/>
+    <circle class="node c" cx="1150" cy="180" r="5"/>
+  </g>
+
+  <!-- text, left side -->
+  <text class="m" x="64" y="88" font-size="16" fill="#67e8f9" letter-spacing="3">AI / ML ENGINEER  ·  ISLAMABAD, PK</text>
+  <text class="t" x="60" y="160" font-size="64" font-weight="700" fill="url(#name)">Zeeshan Qadir</text>
+
+  <g transform="translate(64 196)">
+    <text class="m" x="0" y="27" font-size="24" fill="#94a3b8">&gt;</text>
+    <g transform="translate(26 0)">
+      <g clip-path="url(#type1)"><text class="m" x="0" y="27" font-size="24" fill="#e2e8f0">I build RAG chatbots that cite sources</text></g>
+      <g clip-path="url(#type2)"><text class="m" x="0" y="27" font-size="24" fill="#e2e8f0">I build AI agents with a human in control</text></g>
+      <g clip-path="url(#type3)"><text class="m" x="0" y="27" font-size="24" fill="#e2e8f0">I ship tested code, not notebooks</text></g>
+    </g>
+  </g>
+
+  <g transform="translate(64 262)">
+    <rect width="10" height="10" rx="5" y="-1" fill="#34d399"><animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/></rect>
+    <text class="t" x="20" y="9" font-size="16" fill="#a7f3d0">Available for AI automation projects</text>
+  </g>
+</svg>
