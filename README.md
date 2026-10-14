@@ -52,7 +52,7 @@ Built for US medical billing teams who are buried in insurance denials:
 
 ## How I build
 
-<img src="assets/how-i-build.svg" alt="How I build: your data, retrieve, AI drafts, verify, a human approves, logged" width="100%">
+<img src="assets/how-it-works.svg" alt="How I build: your data, retrieve, AI drafts, verify, a human approves, logged" width="100%">
 
 ## Stack
 
