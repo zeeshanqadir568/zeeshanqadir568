@@ -56,23 +56,8 @@ Built for US medical billing teams who are buried in insurance denials:
 
 ## Stack
 
-<p>
-  <img src="https://img.shields.io/badge/Python-0b1022?style=flat-square&logo=python&logoColor=22d3ee" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-0b1022?style=flat-square&logo=fastapi&logoColor=22d3ee" alt="FastAPI">
-  <img src="https://img.shields.io/badge/LangChain-0b1022?style=flat-square&logo=langchain&logoColor=22d3ee" alt="LangChain">
-  <img src="https://img.shields.io/badge/LangGraph-0b1022?style=flat-square&logo=langgraph&logoColor=22d3ee" alt="LangGraph">
-  <img src="https://img.shields.io/badge/Claude_API-0b1022?style=flat-square&logo=anthropic&logoColor=818cf8" alt="Claude API">
-  <img src="https://img.shields.io/badge/Ollama-0b1022?style=flat-square&logo=ollama&logoColor=818cf8" alt="Ollama">
-  <img src="https://img.shields.io/badge/FAISS-0b1022?style=flat-square&logo=meta&logoColor=818cf8" alt="FAISS">
-  <img src="https://img.shields.io/badge/ChromaDB-0b1022?style=flat-square&logoColor=818cf8" alt="ChromaDB">
-  <img src="https://img.shields.io/badge/Next.js-0b1022?style=flat-square&logo=nextdotjs&logoColor=e879f9" alt="Next.js">
-  <img src="https://img.shields.io/badge/TypeScript-0b1022?style=flat-square&logo=typescript&logoColor=e879f9" alt="TypeScript">
-  <img src="https://img.shields.io/badge/PostgreSQL-0b1022?style=flat-square&logo=postgresql&logoColor=e879f9" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Docker-0b1022?style=flat-square&logo=docker&logoColor=e879f9" alt="Docker">
-</p>
+<img src="assets/stack.svg" alt="Stack: Python, FastAPI, LangChain, LangGraph, Claude API, Ollama, FAISS, ChromaDB, Next.js, TypeScript, PostgreSQL, Docker" width="100%">
 
 ---
 
-<h3 align="center">Got a support inbox or a document pile eating your team's day?</h3>
-<p align="center">Send me one line about it. I'll tell you honestly whether AI can fix it, and what it would take.</p>
-<p align="center"><a href="mailto:zeeshanqadir568@gmail.com"><img src="https://img.shields.io/badge/Let%27s_talk-22d3ee?style=for-the-badge&logo=gmail&logoColor=0b1022" alt="Email me"></a></p>
+<a href="mailto:zeeshanqadir568@gmail.com"><img src="assets/cta.svg" alt="Got a support inbox or a document pile eating your team's day? Email me and I'll tell you honestly whether AI can fix it." width="100%"></a>

@@ -1,28 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="How I build: your data, retrieve, AI drafts, verify, a human approves, logged and shipped.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="How I build: Your data, Retrieve, AI drafts, Verify, Human approves, Logged.">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0b1022"/><stop offset="1" stop-color="#120b26"/></linearGradient>
-    <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#818cf8"/><stop offset="1" stop-color="#e879f9"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1022"/><stop offset="1" stop-color="#120b26"/></linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#c084fc"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
+    <radialGradient id="g1" cx="0" cy="0" r="0.6"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.2"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="1" cy="1" r="0.6"><stop offset="0" stop-color="#f472b6" stop-opacity="0.2"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
     <style>
       .t { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
       .m { font-family: 'Cascadia Code', Consolas, 'Courier New', monospace; }
-      .box { fill: #0f172a; stroke: #334155; stroke-width: 1.5; }
-      .hi { animation: hi 7s linear infinite; }
-      @keyframes hi { 0%,100% { stroke: #334155; } 6%,12% { stroke: #22d3ee; } 18% { stroke: #334155; } }
+      .hi { opacity: 0; animation: hi 7.2s linear infinite; }
+      .ar { opacity: 0.3; animation: ar 7.2s linear infinite; }
+      .edge { stroke-dasharray: 260 2600; animation: run 8s linear infinite; }
+      @keyframes hi { 0% { opacity: 0; } 3% { opacity: 1; fill-opacity: 0.12; } 16% { opacity: 1; } 22% { opacity: 0; } 100% { opacity: 0; } }
+      @keyframes ar { 0%,10% { opacity: 0.3; } 14%,20% { opacity: 1; } 26%,100% { opacity: 0.3; } }
+      @keyframes run { from { stroke-dashoffset: 2860; } to { stroke-dashoffset: 0; } }
     </style>
   </defs>
-  <rect x="1" y="1" width="1198" height="198" rx="16" fill="url(#bg)" stroke="#334155"/>
-  <text class="m" x="40" y="40" font-size="13" fill="#67e8f9" letter-spacing="2">HOW I BUILD</text>
-  <line x1="120" y1="118" x2="1080" y2="118" stroke="url(#ln)" stroke-width="2" stroke-opacity="0.5"/>
-  <circle r="7" cy="118" fill="#f8fafc">
-    <animate attributeName="cx" values="120;1080" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <g class="t" text-anchor="middle">
-    <g><rect class="box hi" x="40" y="88" width="160" height="60" rx="12"/><text x="120" y="114" font-size="17" font-weight="600" fill="#f8fafc">Your data</text><text x="120" y="134" font-size="13" fill="#94a3b8">docs, orders, FAQs</text></g>
-    <g><rect class="box hi" style="animation-delay:1.1s" x="232" y="88" width="160" height="60" rx="12"/><text x="312" y="114" font-size="17" font-weight="600" fill="#f8fafc">Retrieve</text><text x="312" y="134" font-size="13" fill="#94a3b8">hybrid search</text></g>
-    <g><rect class="box hi" style="animation-delay:2.2s" x="424" y="88" width="160" height="60" rx="12"/><text x="504" y="114" font-size="17" font-weight="600" fill="#f8fafc">AI drafts</text><text x="504" y="134" font-size="13" fill="#94a3b8">with sources</text></g>
-    <g><rect class="box hi" style="animation-delay:3.3s" x="616" y="88" width="160" height="60" rx="12"/><text x="696" y="114" font-size="17" font-weight="600" fill="#f8fafc">Verify</text><text x="696" y="134" font-size="13" fill="#94a3b8">guardrails + tests</text></g>
-    <g><rect class="box hi" style="animation-delay:4.4s" x="808" y="88" width="160" height="60" rx="12"/><text x="888" y="114" font-size="17" font-weight="600" fill="#f8fafc">Human approves</text><text x="888" y="134" font-size="13" fill="#94a3b8">no blind automation</text></g>
-    <g><rect class="box hi" style="animation-delay:5.5s" x="1000" y="88" width="160" height="60" rx="12"/><text x="1080" y="114" font-size="17" font-weight="600" fill="#f8fafc">Logged</text><text x="1080" y="134" font-size="13" fill="#94a3b8">full audit trail</text></g>
-  </g>
+  <rect x="1" y="1" width="1198" height="228" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="228" rx="16" fill="url(#g1)"/>
+  <rect x="1" y="1" width="1198" height="228" rx="16" fill="url(#g2)"/>
+  <rect x="1" y="1" width="1198" height="228" rx="16" fill="none" stroke="#334155" stroke-width="1.5"/>
+  <rect class="edge" x="1" y="1" width="1198" height="228" rx="16" fill="none" stroke="url(#ac)" stroke-width="2.5"/>
+  <rect x="28" y="30" width="44" height="4" rx="2" fill="url(#ac)"/>
+  <text class="m" x="82" y="36" font-size="13" fill="#67e8f9" letter-spacing="2">HOW I BUILD</text>
+  <text class="t" x="1172" y="36" font-size="14" fill="#94a3b8" text-anchor="end">every project, same safe path</text>
+  <path class="ar" style="animation-delay:0.00s" d="M196 130 h20.8 m-7 -7 l7 7 l-7 7" fill="none" stroke="#34d399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path class="ar" style="animation-delay:1.20s" d="M392.8 130 h20.8 m-7 -7 l7 7 l-7 7" fill="none" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path class="ar" style="animation-delay:2.40s" d="M589.6 130 h20.8 m-7 -7 l7 7 l-7 7" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path class="ar" style="animation-delay:3.60s" d="M786.4000000000001 130 h20.8 m-7 -7 l7 7 l-7 7" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path class="ar" style="animation-delay:4.80s" d="M983.2 130 h20.8 m-7 -7 l7 7 l-7 7" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+  <rect x="24" y="70" width="168" height="120" rx="14" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect class="hi" style="animation-delay:0.00s" x="24" y="70" width="168" height="120" rx="14" fill="#22d3ee" fill-opacity="0" stroke="#22d3ee" stroke-width="2.5"/>
+  <circle cx="108" cy="100" r="17" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-width="1.5"/>
+  <text class="m" x="108" y="105" font-size="14" font-weight="700" fill="#22d3ee" text-anchor="middle">01</text>
+  <text class="t" x="108" y="146" font-size="19" font-weight="700" fill="#f8fafc" text-anchor="middle">Your data</text>
+  <text class="t" x="108" y="170" font-size="14" fill="#94a3b8" text-anchor="middle">docs, orders, FAQs</text>
+ </g><g>
+  <rect x="220.8" y="70" width="168" height="120" rx="14" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect class="hi" style="animation-delay:1.20s" x="220.8" y="70" width="168" height="120" rx="14" fill="#34d399" fill-opacity="0" stroke="#34d399" stroke-width="2.5"/>
+  <circle cx="304.8" cy="100" r="17" fill="#34d399" fill-opacity="0.18" stroke="#34d399" stroke-width="1.5"/>
+  <text class="m" x="304.8" y="105" font-size="14" font-weight="700" fill="#34d399" text-anchor="middle">02</text>
+  <text class="t" x="304.8" y="146" font-size="19" font-weight="700" fill="#f8fafc" text-anchor="middle">Retrieve</text>
+  <text class="t" x="304.8" y="170" font-size="14" fill="#94a3b8" text-anchor="middle">hybrid search</text>
+ </g><g>
+  <rect x="417.6" y="70" width="168" height="120" rx="14" fill="#818cf8" fill-opacity="0.08" stroke="#818cf8" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect class="hi" style="animation-delay:2.40s" x="417.6" y="70" width="168" height="120" rx="14" fill="#818cf8" fill-opacity="0" stroke="#818cf8" stroke-width="2.5"/>
+  <circle cx="501.6" cy="100" r="17" fill="#818cf8" fill-opacity="0.18" stroke="#818cf8" stroke-width="1.5"/>
+  <text class="m" x="501.6" y="105" font-size="14" font-weight="700" fill="#818cf8" text-anchor="middle">03</text>
+  <text class="t" x="501.6" y="146" font-size="19" font-weight="700" fill="#f8fafc" text-anchor="middle">AI drafts</text>
+  <text class="t" x="501.6" y="170" font-size="14" fill="#94a3b8" text-anchor="middle">with sources</text>
+ </g><g>
+  <rect x="614.4000000000001" y="70" width="168" height="120" rx="14" fill="#c084fc" fill-opacity="0.08" stroke="#c084fc" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect class="hi" style="animation-delay:3.60s" x="614.4000000000001" y="70" width="168" height="120" rx="14" fill="#c084fc" fill-opacity="0" stroke="#c084fc" stroke-width="2.5"/>
+  <circle cx="698.4000000000001" cy="100" r="17" fill="#c084fc" fill-opacity="0.18" stroke="#c084fc" stroke-width="1.5"/>
+  <text class="m" x="698.4000000000001" y="105" font-size="14" font-weight="700" fill="#c084fc" text-anchor="middle">04</text>
+  <text class="t" x="698.4000000000001" y="146" font-size="19" font-weight="700" fill="#f8fafc" text-anchor="middle">Verify</text>
+  <text class="t" x="698.4000000000001" y="170" font-size="14" fill="#94a3b8" text-anchor="middle">guardrails + tests</text>
+ </g><g>
+  <rect x="811.2" y="70" width="168" height="120" rx="14" fill="#f472b6" fill-opacity="0.08" stroke="#f472b6" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect class="hi" style="animation-delay:4.80s" x="811.2" y="70" width="168" height="120" rx="14" fill="#f472b6" fill-opacity="0" stroke="#f472b6" stroke-width="2.5"/>
+  <circle cx="895.2" cy="100" r="17" fill="#f472b6" fill-opacity="0.18" stroke="#f472b6" stroke-width="1.5"/>
+  <text class="m" x="895.2" y="105" font-size="14" font-weight="700" fill="#f472b6" text-anchor="middle">05</text>
+  <text class="t" x="895.2" y="146" font-size="19" font-weight="700" fill="#f8fafc" text-anchor="middle">Human approves</text>
+  <text class="t" x="895.2" y="170" font-size="14" fill="#94a3b8" text-anchor="middle">no blind automation</text>
+ </g><g>
+  <rect x="1008" y="70" width="168" height="120" rx="14" fill="#fbbf24" fill-opacity="0.08" stroke="#fbbf24" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect class="hi" style="animation-delay:6.00s" x="1008" y="70" width="168" height="120" rx="14" fill="#fbbf24" fill-opacity="0" stroke="#fbbf24" stroke-width="2.5"/>
+  <circle cx="1092" cy="100" r="17" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.5"/>
+  <text class="m" x="1092" y="105" font-size="14" font-weight="700" fill="#fbbf24" text-anchor="middle">06</text>
+  <text class="t" x="1092" y="146" font-size="19" font-weight="700" fill="#f8fafc" text-anchor="middle">Logged</text>
+  <text class="t" x="1092" y="170" font-size="14" fill="#94a3b8" text-anchor="middle">full audit trail</text>
+ </g>
 </svg>
