@@ -8,13 +8,27 @@
   <a href="mailto:zeeshanqadir568@gmail.com"><img src="https://img.shields.io/badge/Email_me-0b1022?style=for-the-badge&logo=gmail&logoColor=e879f9" alt="Email"></a>
 </p>
 
-I build the layer between a business's documents and the answers its people and customers need: **RAG chatbots, AI agents and LLM apps** that run as real, tested code, not notebooks. Every answer is grounded in your own data, and a human stays in control of anything that matters.
+<h3 align="center">Your team answers the same questions all day.<br>I build AI that does it for them.</h3>
+
+<p align="center">From your own documents. With sources. With a human in control.</p>
+
+## What I deliver
+
+- 💬 **Chatbots that don't make things up.** Answers come only from your docs, and every answer shows its source.
+- 🤖 **AI agents that do real work.** They look up orders, draft replies, open tickets, and hand off to a person when unsure.
+- 📄 **Document automation.** Letters, forms and PDFs go in. Ready-to-approve drafts come out.
+- 🛡️ **Built to be trusted.** Guardrails, audit logs, and tests that run on every push.
 
 ## Featured: Appeal Desk
 
 <a href="https://zeeshanqadir568.github.io/appeal-desk/"><img src="assets/appeal-desk.jpg" alt="Appeal Desk: denial letter in, reviewed appeal out" width="100%"></a>
 
-**Denial letter in. Reviewed appeal out.** Appeal Desk reads a US payer denial letter, drafts the appeal and flags deadlines and high-value claims. A named reviewer approves every draft, and every step lands in a tamper-evident audit trail.
+Built for US medical billing teams who are buried in insurance denials:
+
+- 📥 **Reads** the payer's denial letter
+- ✍️ **Drafts** the appeal for that exact denial
+- ⏰ **Flags** deadlines and high-value claims first
+- ✅ **A named reviewer approves** every draft, and every step goes on a record that can't be quietly changed
 
 <p>
   <a href="https://zeeshanqadir568.github.io/appeal-desk/"><img src="https://img.shields.io/badge/Watch_the_3--min_demo-fbbf24?style=for-the-badge&logo=googlechrome&logoColor=0b1022" alt="Watch the demo"></a>
@@ -34,7 +48,7 @@ I build the layer between a business's documents and the answers its people and 
   </tr>
 </table>
 
-Each project runs end to end, has tests that run in CI on every push, and its README says plainly what is built and what is planned.
+> **No vaporware.** Every project runs end to end, has tests in CI, and its README says honestly what's built and what's planned.
 
 ## How I build
 
@@ -59,5 +73,6 @@ Each project runs end to end, has tests that run in CI on every push, and its RE
 
 ---
 
-<p align="center"><b>Have a support inbox, a document pile or a manual process that eats your team's day?</b><br>
-<a href="mailto:zeeshanqadir568@gmail.com">Email me</a> and I'll tell you honestly whether AI can fix it.</p>
+<h3 align="center">Got a support inbox or a document pile eating your team's day?</h3>
+<p align="center">Send me one line about it. I'll tell you honestly whether AI can fix it, and what it would take.</p>
+<p align="center"><a href="mailto:zeeshanqadir568@gmail.com"><img src="https://img.shields.io/badge/Let%27s_talk-22d3ee?style=for-the-badge&logo=gmail&logoColor=0b1022" alt="Email me"></a></p>
